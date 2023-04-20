@@ -10,8 +10,8 @@ import lombok.Setter;
 public class Administrator {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private int id;
+    @Column(name = "administrator_id")
+    private int administrator_id;
     @Column(name = "login")
     private String login;
     @Column(name = "password")
